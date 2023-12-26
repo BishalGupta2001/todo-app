@@ -5,7 +5,6 @@
 }
 
 body {
-  
   background: linear-gradient(45deg, #7b7e84, #84817b);
 }
 
@@ -25,7 +24,6 @@ button {
   font-size: 1.1rem;
   padding: 8px 20px;
 }
-
 
 #todo {
   border: none;
@@ -54,25 +52,25 @@ button {
   margin-top: 20px;
   justify-content: center;
   justify-items: start;
+  /* grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); Responsive grid columns */
 }
-
 
 /* Scrollbar side ma scrollbar arha hai uska width diye hain*/
 ::-webkit-scrollbar {
-	width: 10px;
+  width: 10px;
 }
 
 /* Track andar k track ka color */
 ::-webkit-scrollbar-track {
-	background: rgb(29, 29, 29);
+  background: rgb(29, 29, 29);
 }
 
 /* Handle  ek bar hai  uska color */
 ::-webkit-scrollbar-thumb {
-	background: #424242;
+  background: #424242;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-	background: #343434;
+  background: #343434;
 }
